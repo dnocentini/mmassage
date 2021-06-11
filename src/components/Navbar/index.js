@@ -12,13 +12,13 @@ import {
     NavIcon
 } from './NavbarElements';
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
     return (
         <>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'>M Massage</NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
