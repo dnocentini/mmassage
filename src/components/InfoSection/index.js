@@ -5,7 +5,6 @@ import {
     InfoRow,
     Column1,
     TextWrapper,
-    TopLine,
     Heading,
     Subtitle,
     Column2,
@@ -21,7 +20,6 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                         <InfoRow imgStart={imgStart}>
                             <Column1>
                             <TextWrapper>
-                                <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                             </TextWrapper>

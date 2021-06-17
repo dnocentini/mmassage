@@ -37,9 +37,9 @@ const Navbar = ({ toggle }) => {
                     </NavMenu>
                     <NavIcon>
                         <a href='mailto: dinny0313@gmail.com' >
-                            <MdEmail size='1.8em' color='#f6ebb4' />
+                            <MdEmail size='1.8em' color='#fff' />
                         </a>
-                        <MdPhone size='1.8em' color='#f6ebb4' /> 
+                        <MdPhone size='1.8em' color='#fff' /> 
                     </NavIcon>      
                 </NavbarContainer>    
             </Nav>

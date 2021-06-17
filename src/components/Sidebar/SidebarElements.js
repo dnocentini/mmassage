@@ -9,7 +9,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #8fa147;
+    background: #55513d;
     display: grid;
     align-items: center;
     top: 0;
@@ -20,7 +20,7 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-    color: #524133; 
+    color: #55291e; 
 `;
 
 export const Icon = styled.div`
@@ -34,7 +34,7 @@ export const Icon = styled.div`
 `;
 
 export const SidebarWrapper = styled.div`
-    color: #f6ebb4;
+    color: #e2dac3;
 `;
 
 export const SidebarMenu = styled.ul`
@@ -57,7 +57,7 @@ export const SidebarLink = styled(Link)`
     list-style: none;
     transition: 0.2s ease-in-out;
     text-decoration: none;
-    color: f6ebb4;
+    color: e2dac3;
     cursor: pointer;
     letter-spacing: 1.2px;
     text-transform: uppercase;
