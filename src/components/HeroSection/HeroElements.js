@@ -61,12 +61,13 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-    color: #524133;
+    color: #fff;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 108px;
     text-align: center;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
 
     @media screen and (max-width: 768px) {
         font-size: 60px;
@@ -78,9 +79,10 @@ export const HeroH1 = styled.h1`
 `;
 
 export const HeroP = styled.p`
-    margin-top: 34px;
-    color: #f6ebb4;
+    margin-top: 84px;
+    color: #e2dac3;
     font-size: 30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     text-align: center;
     max-width: 600px;
     text-transform: uppercase;
@@ -92,3 +94,16 @@ export const HeroP = styled.p`
         font-size: 18px;
     }
 `;
+
+export const HeroMBg = styled.div`
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+`;
+
+
