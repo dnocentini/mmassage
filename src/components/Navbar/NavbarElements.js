@@ -8,7 +8,8 @@ export const Nav = styled.nav`
     align-items: center;
     letter-spacing: 1.2px;
     text-transform: uppercase;
-    position: relative;
+    position: sticky;
+    top: 0;
     z-index: 10;
 
     @media screen and (max-width: 960px) {
