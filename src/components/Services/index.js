@@ -21,7 +21,7 @@ const Services = () => {
         <>
             <ServicesContainer id="services">
                 <ServicesH1>MASSAGES</ServicesH1>
-                <ServicesP1>Our massage therapy services are designed to be relaxing and restorative. Led by Louisa Tomaio, a natural health practitioner with over 15 years of experience in the healthcare field, our highly-trained team offers the following massage therapy modalities to root out pain and tension at its source.</ServicesP1>
+                <ServicesP1>Our massage therapy services are designed to be relaxing and restorative.</ServicesP1>
                 <ServicesWrapper>
                     <ServicesCard>
                         <ServicesImg src={img1}/> 

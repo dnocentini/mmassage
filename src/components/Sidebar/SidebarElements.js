@@ -63,7 +63,8 @@ export const SidebarLink = styled(Link)`
     text-transform: uppercase;
 
     &:hover {
-        color #524133;
+        color #2c2b20;
         transition: 0.2s ease-in-out;
+    
     }
 `;

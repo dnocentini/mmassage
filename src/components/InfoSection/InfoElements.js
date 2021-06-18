@@ -11,7 +11,8 @@ export const InfoContainer = styled.div`
 
 export const InfoWrapper = styled.div`
     display: grid;
-    height: 760px;
+    z-index: 1;
+    height: 860px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -32,17 +33,20 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
+    margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
 `;
 
 export const Column2 = styled.div`
+    margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
 `;
 
 export const TextWrapper = styled.div`
     max-width: 540px;
+    padding-top: 0;
     padding-bottom: 60px;
 `;
 
@@ -66,12 +70,14 @@ export const Subtitle = styled.p`
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#2c2b20' : '#e2dac3')};
     
+    @media screen and (max-width: 480px) {
+        font-size: 18px;
+    };
 `;
 
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
-    margin: 20px;
 `;
 
 export const Img = styled.img`
