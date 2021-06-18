@@ -23,20 +23,60 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='home'>Home</NavLinks> 
+                            <NavLinks 
+                                to='home'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                                activeClass="active"
+                            >Home</NavLinks> 
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='services'>Services</NavLinks> 
+                            <NavLinks 
+                                to='services'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                                activeClass="active"
+                            >Services</NavLinks> 
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='specials'>Specials</NavLinks> 
-                        </NavItem> 
-                        <NavItem>
-                            <NavLinks to='about'>About</NavLinks> 
+                            <NavLinks 
+                                to='specials'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                                activeClass="active"
+                            >Specials</NavLinks> 
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='contact'>Contact Us</NavLinks> 
-                        </NavItem> 
+                            <NavLinks 
+                                to='about'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                                activeClass="active"
+                            >About Us</NavLinks> 
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks 
+                                to='contact'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                                activeClass="active"
+                            >Contact Us</NavLinks> 
+                        </NavItem>
                     </NavMenu>
                     <NavIcon>
                         <a href='mailto: dinny0313@gmail.com' >

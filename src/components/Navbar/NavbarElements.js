@@ -80,7 +80,7 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
     &.active {
-    color: #524133;
+    color: #2c2b20;
     }
 `;
 
