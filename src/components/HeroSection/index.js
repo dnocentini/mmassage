@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from '../../images/SPA.png';
-import Image2 from '../../images/BG.png';
+import Image2 from '../../images/BG1.jpeg';
 import {
     HeroContainer,
     HeroBg,
@@ -8,7 +8,8 @@ import {
     HeroContent,
     HeroH1,
     HeroP,
-    HeroMBg
+    HeroB,
+    ImageB
 } from './HeroElements';
 
 const HeroSection = () => {
@@ -27,9 +28,9 @@ const HeroSection = () => {
                     </HeroP>
                 </HeroContent>
             </HeroContainer>
-            <HeroMBg>
-                <ImageBg src={Image2} />
-            </HeroMBg>
+            <HeroB>
+                <ImageB src={Image2} />
+            </HeroB>
         </>
     );
 };
