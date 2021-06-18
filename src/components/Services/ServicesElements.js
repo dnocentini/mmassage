@@ -60,12 +60,10 @@ export const ServicesImg = styled.img`
 `;
 
 export const ServicesH1 = styled.h1`
-    font-size: 2rem;
     color: #fff;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    text-decoration: underline;
     margin-top: 35px;
     margin-bottom: 45px;
     @media screen and (max-width: 480px) {
@@ -79,6 +77,7 @@ export const ServicesP1 = styled.p`
     margin-bottom: 60px;
     font-size: 20px;
     line-height: 24px;
+    
 `;
 
 export const ServicesH2 = styled.h2`
