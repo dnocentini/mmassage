@@ -11,13 +11,13 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-    id: 'services',
-    lightBg: false,
-    lightText: true,
-    headline: 'MASSAGES',
-    description: 'Our massage therapy services are designed to be relaxing and restorative. Led by Louisa Tomaio, a natural health practitioner with over 15 years of experience in the healthcare field, our highly-trained team offers the following massage therapy modalities to root out pain and tension at its source.',
+    id: 'specials',
+    lightBg: true,
+    lightText: false,
+    headline: 'Happy Birthday',
+    description: 'Book any service on your birthday and receive free aromatherapy! Options include wild orange, ginger, lavender, rosemary, and eucalyptus, to name a few.',
     imgStart: false,
-    img: require('../../images/massage.jpeg'),
-    alt: 'massage',
-    darkText: false
+    img: require('../../images/aromatherapy.jpeg'),
+    alt: 'aromatherapy',
+    darkText: true
 };
