@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const ServicesContainer = styled.div`
-    height: 800px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #2c2b20;
+
     @media screen and (max-width: 768px) {
         height: 1100px;
     };
@@ -61,11 +62,23 @@ export const ServicesImg = styled.img`
 export const ServicesH1 = styled.h1`
     font-size: 2rem;
     color: #fff;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-bottom: 64px;
+    text-decoration: underline;
+    margin-top: 35px;
+    margin-bottom: 45px;
     @media screen and (max-width: 480px) {
         font-size: 2rem;
     };
+`;
+
+export const ServicesP1 = styled.p`
+    color: #e2dac3;
+    max-width: 1040px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 24px;
 `;
 
 export const ServicesH2 = styled.h2`
@@ -73,7 +86,7 @@ export const ServicesH2 = styled.h2`
     margin-bottom: 10px;
 `;
 
-export const ServicesP = styled.p`
+export const ServicesP2 = styled.p`
     font-size: 1rem;
     text-align: center;
 `;
