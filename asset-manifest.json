@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/mmassage/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/mmassage/static/js/main.2633d357.chunk.js",
-    "main.js.map": "/mmassage/static/js/main.2633d357.chunk.js.map",
-    "runtime-main.js": "/mmassage/static/js/runtime-main.4d5074cc.js",
-    "runtime-main.js.map": "/mmassage/static/js/runtime-main.4d5074cc.js.map",
-    "static/js/2.4ca09937.chunk.js": "/mmassage/static/js/2.4ca09937.chunk.js",
-    "static/js/2.4ca09937.chunk.js.map": "/mmassage/static/js/2.4ca09937.chunk.js.map",
-    "static/js/3.4fa00a06.chunk.js": "/mmassage/static/js/3.4fa00a06.chunk.js",
-    "static/js/3.4fa00a06.chunk.js.map": "/mmassage/static/js/3.4fa00a06.chunk.js.map",
+    "main.css": "/mmassage/static/css/main.cb73de5a.chunk.css",
+    "main.js": "/mmassage/static/js/main.bc6231a0.chunk.js",
+    "main.js.map": "/mmassage/static/js/main.bc6231a0.chunk.js.map",
+    "runtime-main.js": "/mmassage/static/js/runtime-main.8edbed71.js",
+    "runtime-main.js.map": "/mmassage/static/js/runtime-main.8edbed71.js.map",
+    "static/js/2.bd676406.chunk.js": "/mmassage/static/js/2.bd676406.chunk.js",
+    "static/js/2.bd676406.chunk.js.map": "/mmassage/static/js/2.bd676406.chunk.js.map",
     "index.html": "/mmassage/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/mmassage/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.4ca09937.chunk.js.LICENSE.txt": "/mmassage/static/js/2.4ca09937.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/mmassage/static/media/logo.6ce24c58.svg"
+    "static/css/main.cb73de5a.chunk.css.map": "/mmassage/static/css/main.cb73de5a.chunk.css.map",
+    "static/js/2.bd676406.chunk.js.LICENSE.txt": "/mmassage/static/js/2.bd676406.chunk.js.LICENSE.txt",
+    "static/media/SPA.fac18380.png": "/mmassage/static/media/SPA.fac18380.png",
+    "static/media/SPA2.jpeg": "/mmassage/static/media/SPA2.aa24c8da.jpeg",
+    "static/media/aromatherapy.jpeg": "/mmassage/static/media/aromatherapy.fed5c4f5.jpeg",
+    "static/media/img1.9c9069d8.jpeg": "/mmassage/static/media/img1.9c9069d8.jpeg",
+    "static/media/img2.25221eb4.jpeg": "/mmassage/static/media/img2.25221eb4.jpeg",
+    "static/media/img3.f98c86df.jpeg": "/mmassage/static/media/img3.f98c86df.jpeg",
+    "static/media/massage.jpeg": "/mmassage/static/media/massage.6e5b9d20.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d5074cc.js",
-    "static/js/2.4ca09937.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.2633d357.chunk.js"
+    "static/js/runtime-main.8edbed71.js",
+    "static/js/2.bd676406.chunk.js",
+    "static/css/main.cb73de5a.chunk.css",
+    "static/js/main.bc6231a0.chunk.js"
   ]
 }
