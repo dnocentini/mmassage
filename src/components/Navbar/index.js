@@ -1,6 +1,7 @@
 import React from 'react';
 import {FaBars} from 'react-icons/fa';
 import {MdEmail, MdPhone} from 'react-icons/md';
+import { animateScroll as scroll} from 'react-scroll';
 import {
     Nav,
     NavbarContainer,
@@ -13,11 +14,16 @@ import {
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
+
+    const toggleHome = () => {
+        scroll.scrollToTop()
+    }
+
     return (
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>M Massage</NavLogo>
+                    <NavLogo to='/' onClick={toggleHome}>M Massage</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
