@@ -57,6 +57,7 @@ export const ServicesImg = styled.img`
     height: 150px;
     width: 200px;
     margin-bottom: 10px;
+    border: 3px solid #55291e;
 `;
 
 export const ServicesH1 = styled.h1`
@@ -66,6 +67,7 @@ export const ServicesH1 = styled.h1`
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     margin-top: 35px;
     margin-bottom: 45px;
+
     @media screen and (max-width: 480px) {
         font-size: 2rem;
     };
@@ -78,6 +80,10 @@ export const ServicesP1 = styled.p`
     font-size: 20px;
     line-height: 24px;
     text-align: center;
+
+    @media screen and (max-width: 480px) {
+        font-size: 1rem;
+    };
     
 `;
 
