@@ -81,11 +81,8 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.img`
-    float: left;
-    width:  450px;
-    height: 300px;
-    background-size: cover;
-    margin: 20px;
+    width: 85%;
+    margin: 0 0 10px 0;
     padding-rigth: 0;
     border: 7px solid #55291e;
 
